@@ -1,0 +1,59 @@
+.log-input {
+	border-radius: 8px;
+	width: 100%;
+	// max-width: 420px;
+
+	color: var(--1-a-1-c-23, #1a1c23);
+	font-family: Roboto-400;
+	font-size: 14px;
+	line-height: 20px; /* 142.857% */
+	background: transparent;
+
+	&::placeholder {
+		color: var(--a-9-a-9-a-9, #a9a9a9);
+		font-family: Roboto-400;
+		font-size: 14px;
+		line-height: 20px; /* 142.857% */
+	}
+
+	&__container {
+		padding: 0 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 4px;
+		background: var(--f-4-f-5-f-6, #f4f5f6);
+		width: 512px;
+		height: 56px;
+		border-radius: 80px;
+	}
+
+	&__label {
+		display: none;
+		&.active {
+			display: flex;
+			color: var(--a-9-a-9-a-9, #a9a9a9);
+			font-family: Roboto-400;
+			font-size: 12px;
+			line-height: 18px; /* 150% */
+		}
+	}
+
+	&__textarea {
+		border-radius: 8px;
+		background: var(--9, #222);
+		width: 100%;
+		max-width: 430px;
+		max-height: 49px;
+		height: fit-content;
+		padding: 14px 16px 16px 16px;
+		color: var(--6, #999);
+		font-family: Uto-400;
+		font-size: 16px;
+		display: flex;
+
+		&::placeholder {
+			height: 0px !important;
+		}
+	}
+}

@@ -1,0 +1,115 @@
+.main-hero {
+	margin: 24px 0 0 -2px;
+	display: flex;
+	flex-direction: row;
+	gap: 32px;
+	width: 100%;
+
+	&__big-card {
+		position: relative;
+		width: 100%;
+		max-width: 870px;
+		height: 480px;
+		display: flex;
+		flex-direction: column;
+		border-radius: 32px;
+		overflow: hidden;
+		padding: 48px 0 48px 56px;
+	}
+
+	&__background {
+		z-index: -1;
+		&.big {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		&.small {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		&.small-second {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&__image {
+		z-index: -1;
+		&.big {
+			position: absolute;
+			top: 0;
+			left: 329px;
+		}
+		&.small {
+			position: absolute;
+			top: 7px;
+			left: 164px;
+		}
+		&.small-second {
+			position: absolute;
+			top: 18px;
+			left: 231px;
+		}
+	}
+
+	&__card-title {
+		color: #fff;
+		font-family: Roboto-800;
+		font-size: 36px;
+		line-height: 48px; /* 133.333% */
+		max-width: 450px;
+	}
+
+	&__list {
+		margin: 16px 0 96px 16px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	&__list-item {
+		color: #fff;
+		font-family: Roboto-400;
+		font-size: 16px;
+		line-height: 24px; /* 150% */
+		list-style-type: circle;
+		&::marker {
+		}
+	}
+
+	&__small-cards {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	&__small-card {
+		width: 378px;
+		height: 224px;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		border-radius: 32px 15px 15px 32px;
+		overflow: hidden;
+		padding: 28px 0 32px 28px;
+	}
+
+	&__small-card-title {
+		color: #fff;
+		font-family: Roboto-800;
+		font-size: 20px;
+		line-height: 36px; /* 180% */
+	}
+
+	&__small-card-undertitle {
+		margin: 0 0 36px 0;
+		color: #fff;
+		font-family: Roboto-400;
+		font-size: 16px;
+		line-height: 24px; /* 150% */
+		max-width: 190px;
+	}
+}

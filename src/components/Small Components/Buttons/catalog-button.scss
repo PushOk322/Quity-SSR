@@ -1,0 +1,26 @@
+.catalog-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 80px;
+	font-family: Roboto-500;
+	line-height: 20px;
+
+	&.yellow {
+		color: var(--1-a-1-c-23, #1a1c23);
+		font-size: 18px;
+		background: #fedc5a;
+		border: none;
+		width: 138px;
+		height: 56px;
+	}
+
+	&.transparent {
+		color: #fff;
+		font-size: 14px;
+		border: 1px solid #fff;
+		background: transparent;
+		width: 104px;
+		height: 44px;
+	}
+}
