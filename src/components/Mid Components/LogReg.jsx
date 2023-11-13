@@ -153,7 +153,7 @@ const LogReg = (props) => {
                                     Забыл пароль?
                                 </div>
                                 <div className="log-reg__button-wrapper">
-                                    <BlueButton text="Войти" handleClick={handleLogin}></BlueButton>
+                                    <BlueButton text="Войти" handleClick={handleLogin} width={512}></BlueButton>
                                 </div>
                             </>
                             :
@@ -169,7 +169,7 @@ const LogReg = (props) => {
                                     Я принимаю условия <span>Публичной оферты</span> и <span>Пользовательского соглашения</span>
                                 </div>
                                 <div className="log-reg__button-wrapper">
-                                    <BlueButton text="Зарегистрироватся" handleClick={handleReg}></BlueButton>
+                                    <BlueButton text="Зарегистрироватся" handleClick={handleReg} width={512}></BlueButton>
                                 </div>
                             </>
                     }

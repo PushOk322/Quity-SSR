@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState, useEffect } from 'react';
 import "./blue-button.scss";
 
@@ -7,7 +9,7 @@ const BlueButton = (props) => {
     };
     return (
         <>
-            <button className="blue-button" onClick={()=>{handleClick()}}>
+            <button className="blue-button" onClick={()=>{handleClick()}} style={{width:props.width }}>
                 {props.text}
             </button>
         </>

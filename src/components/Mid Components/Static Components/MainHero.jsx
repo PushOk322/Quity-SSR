@@ -1,9 +1,5 @@
-'use client'
-
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link'
-import { useSelector } from 'react-redux';
-import { useDispatch } from 'react-redux';
 import Image from "next/image";
 
 import './main-hero.scss';
